@@ -1,10 +1,22 @@
 package Model;
 
 public class Ingresso {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public int PartidaId;
+	public int TorcedorId;
+	
+	
+	public int getPartidaId() {
+		return PartidaId;
 	}
+	public void setPartidaId(int partidaId) {
+		PartidaId = partidaId;
+	}
+	public int getTorcedorId() {
+		return TorcedorId;
+	}
+	public void setTorcedorId(int torcedorId) {
+		TorcedorId = torcedorId;
+	}
+
 
 }
